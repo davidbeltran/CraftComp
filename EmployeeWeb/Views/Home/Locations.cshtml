@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Locations";
+}
+
+<p style="color:#f5a60a;font-size:30px"><br>ALL STORE LOCATIONS</p>
+<h3>
+    @{
+        foreach (Location local in Program.locations)
+            WriteLiteral(local.GetInfo() + "<br><br>");
+    }
+</h3>
+<p>@Html.ActionLink("Return to link list", "LoginSuccess", null, null, new {style="color:red"})</p>

@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Mailing List";
+}
+
+<p style="color:#f5a60a;font-size:30px"><br>Customer Mailing List</p>
+<h3>
+    @{
+        foreach (Customer cust in Program.customers)
+            WriteLiteral(cust.Display() + "<br><br>");
+    }
+</h3>
+<p>@Html.ActionLink("Return to link list", "LoginSuccess", null, null, new {style="color:red"})</p>

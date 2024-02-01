@@ -1,0 +1,15 @@
+﻿<!--
+    Substance Author: David Beltran
+    Contains syntax that runs Accessory List web page.
+-->
+@{
+    ViewBag.Title = "Accessories";
+}
+
+<p style="color:#f5a60a;font-size:30px"><br>ACCESSORY LIST</p>
+<h3>
+    @{
+        foreach (Product accessory in Program.accessories)
+            WriteLiteral(accessory.GetInfo() + "<br>");
+    }
+</h3>

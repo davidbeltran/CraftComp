@@ -1,0 +1,15 @@
+﻿<!--
+    Substance Author: David Beltran
+    Contains syntax that runs Tablet List web page.
+-->
+@{
+    ViewBag.Title = "Tablets";
+}
+
+<p style="color:#f5a60a;font-size:30px"><br>TABLET LIST</p>
+<h3>
+    @{
+        foreach (Product tablet in Program.tablets)
+            WriteLiteral(tablet.GetInfo() + "<br>");
+    }
+</h3>

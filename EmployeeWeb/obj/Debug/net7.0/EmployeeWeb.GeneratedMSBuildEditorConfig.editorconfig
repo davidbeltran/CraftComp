@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmployeeWeb
+build_property.RootNamespace = EmployeeWeb
+build_property.ProjectDir = D:\DU\2023\.NET Programming with C#\week10\assignment\Beltran.David.NETCore\Craft_A_Comp\EmployeeWeb\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DU\2023\.NET Programming with C#\week10\assignment\Beltran.David.NETCore\Craft_A_Comp\EmployeeWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/Locations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2NhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/LoginError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbkVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpblN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/MailingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYWlsaW5nTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/Quotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdW90ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Home/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DU/2023/.NET Programming with C\#/week10/assignment/Beltran.David.NETCore/Craft_A_Comp/EmployeeWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d60ej0a1zv

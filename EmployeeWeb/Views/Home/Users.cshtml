@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Users";
+}
+
+
+<p style="color:#f5a60a;font-size:30px"><br>Employee Users</p>
+<h3>
+    @{
+        foreach (string user in Program.users)
+            WriteLiteral(user + "<br><br>");
+    }
+</h3>
+<p>@Html.ActionLink("Return to link list", "LoginSuccess", null, null, new {style="color:red"})</p>

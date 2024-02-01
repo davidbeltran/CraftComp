@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+  <Customer>
+    <Name>PHIL BROOKS</Name>
+    <Address>123 CLOBBER ST.</Address>
+    <Email>GTS@AEW.COM</Email>
+    <Phone>123-456-7890</Phone>
+    <FavCategory>LAPTOP</FavCategory>
+  </Customer>
+  <Customer>
+    <Name>MAXWELL JACOB FRIEDMAN</Name>
+    <Address>789 BETTER THAN YOU RD.</Address>
+    <Email>MJF@AEW.COM</Email>
+    <Phone>890-342-1294</Phone>
+    <FavCategory>TABLET</FavCategory>
+  </Customer>
+  <Customer>
+    <Name>JOHN CENA</Name>
+    <Address>932 ATTITUDE ADJUSTMENT CR.</Address>
+    <Email>CANTSEEME@WWE.COM</Email>
+    <Phone>783-432-4313</Phone>
+    <FavCategory>PHONE</FavCategory>
+  </Customer>
+</Customers>

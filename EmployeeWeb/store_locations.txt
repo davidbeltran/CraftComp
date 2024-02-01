@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stores>
+	<store>
+		<storeid>1</storeid>
+		<location>LA CROSSE</location>
+		<address>123 LANG DR</address>
+		<city>LA CROSSE</city>
+		<state>WI</state>
+		<zip>54603</zip>
+		<lat>-91.241112</lat>
+		<lon>43.83106</lon>
+	</store>
+	<store>
+		<storeid>2</storeid>
+		<location>ST CLOUD</location>
+		<address>151 10TH AVE S</address>
+		<city>WAITE PARK</city>
+		<state>MN</state>
+		<zip>56387</zip>
+		<lat>-94.23038</lat>
+		<lon>45.548348</lon>
+	</store>
+	<store>
+		<storeid>3</storeid>
+		<location>MARION IOWA</location>
+		<address>100 MENARD LANE</address>
+		<city>MARION</city>
+		<state>IA</state>
+		<zip>52302</zip>
+		<lat>-91.609046</lat>
+		<lon>42.018071</lon>
+	</store>
+	<store>
+		<storeid>4</storeid>
+		<location>FARGO</location>
+		<address>2300 13TH AVENUE EAST</address>
+		<city>WEST FARGO</city>
+		<state>ND</state>
+		<zip>58078</zip>
+		<lat>-96.878847</lat>
+		<lon>46.863338</lon>
+	</store>
+	<store>
+		<storeid>5</storeid>
+		<location>CHERRY VALLEY</location>
+		<address>1001 S PERRYVILLE ROAD</address>
+		<city>ROCKFORD</city>
+		<state>IL</state>
+		<zip>61112</zip>
+		<lat>-88.981147</lat>
+		<lon>42.245063</lon>
+	</store>
+	<store>
+		<storeid>6</storeid>
+		<location>RACINE</location>
+		<address>2101 SOUTH OAKES ROAD</address>
+		<city>STURTEVANT</city>
+		<state>WI</state>
+		<zip>53177</zip>
+		<lat>-87.870294</lat>
+		<lon>42.695085</lon>
+	</store>
+	<store>
+		<storeid>7</storeid>
+		<location>SIOUX FALLS WEST</location>
+		<address>2001 S SHIRLEY AVENUE</address>
+		<city>SIOUX FALLS</city>
+		<state>SD</state>
+		<zip>57106</zip>
+		<lat>-96.775539</lat>
+		<lon>43.519217</lon>
+	</store>
+	<store>
+		<storeid>8</storeid>
+		<location>GRIFFITH</location>
+		<address>5050 WEST RIDGE ROAD</address>
+		<city>GARY</city>
+		<state>IN</state>
+		<zip>46408</zip>
+		<lat>-87.410944</lat>
+		<lon>41.550888</lon>
+	</store>
+	<store>
+		<storeid>9</storeid>
+		<location>LINCOLN NORTH</location>
+		<address>2500 NORTH 27TH STREET</address>
+		<city>LINCOLN</city>
+		<state>NE</state>
+		<zip>68521</zip>
+		<lat>-96.679151</lat>
+		<lon>40.847677</lon>
+	</store>
+	<store>
+		<storeid>10</storeid>
+		<location>MINOT</location>
+		<address>105 28TH AVENUE SE</address>
+		<city>MINOT</city>
+		<state>ND</state>
+		<zip>58701</zip>
+		<lat>-101.292282</lat>
+		<lon>48.205789</lon>
+	</store>
+</stores>

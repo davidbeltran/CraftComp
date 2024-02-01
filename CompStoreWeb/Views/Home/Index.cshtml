@@ -1,0 +1,45 @@
+﻿<!--
+    Substance Author: David Beltran
+    Contains syntax that runs Home web page.
+-->
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4" style="color:#8e75c9">CRAFT-A-COMP</h1>
+    <h2 style="color:#8e75c9">Owner:David Beltran</h2>
+    <h2 style="color:#8e75c9">Your stop for pre-built customizable computers and accessories!</h2>
+
+    <p>@Html.ActionLink("Laptops", "Laptops", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Tablets", "Tablets", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Accessories", "Accessories", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Locations", "Locations", null, null, new {style="color:red"})</p>
+
+    @*Displays store merchandise, sale desktops, and customer lists from Program.cs*@
+    <p style="color:#f5a60a;font-size:30px"><br>OUR MERCHANDISE</p>
+    <h3>
+        @{
+            foreach (string merch in Program.merchandise)
+                WriteLiteral(merch + "<br>");
+        }
+    </h3>
+    <p style="color:#f5a60a;font-size:30px"><br>DESKTOP SALE</p>
+    <h3>
+        @{
+            for (int i = 0; i < Program.desktops.GetLength(0); i++)
+            {
+                WriteLiteral($"{Program.desktops[i, 0]} {Program.desktops[i, 1]} "
+                + $"{Program.desktops[i, 2]} <br>");
+            }
+        }
+    </h3>
+    <p style="color:#f5a60a;font-size:30px"><br>WAITING LIST</p>
+    <h3>
+        @{
+            foreach (Customer cust in Program.waitingList)
+                WriteLiteral(cust.custName + "<br>");
+        }
+    </h3>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

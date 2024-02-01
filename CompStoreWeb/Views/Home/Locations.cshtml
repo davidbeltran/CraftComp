@@ -1,0 +1,23 @@
+﻿<!--
+    Substance Author: David Beltran
+    Contains syntax that runs Locations web page.
+-->
+@{
+    ViewBag.Title = "Locations";
+}
+
+@model CompStoreWeb.Models.LocationViewModel
+
+<form asp-controller="Home" asp-action="Locations" method="post">
+    <p style="color:#f5a60a;font-size:30px"><br>LOCATIONS</p>
+    <div class="mb-3">
+        <select class="form-select" asp-items="Model.LocationsSelectList" asp-for="SelectedCity">
+            <option value="NOSELECTEDVALUE">-- Select A City --</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Find</button>
+    </div>
+    <input size ="150" asp-for="SelectedCity" readonly>
+</form>
+<p>@Html.ActionLink("Find Other", "Locations", null, null, new {style="color:#0f35f4"})</p>

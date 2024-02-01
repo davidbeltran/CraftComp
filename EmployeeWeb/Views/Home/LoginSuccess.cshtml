@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "LoginSuccess";
+}
+<div class="text-center">
+    <h1 class="display-4" style="color:black">CRAFT-A-COMP</h1>
+    <h2 style="color:black">Owner:David Beltran</h2>
+    <h3 style="color:black">Click on a link to view page</h3>
+
+    <p>@Html.ActionLink("Products", "Products", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Locations", "Locations", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Mailing List", "MailingList", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Quotes", "Quotes", null, null, new {style="color:red"})</p>
+    <p>@Html.ActionLink("Users", "Users", null, null, new {style="color:red"})</p>
+</div>

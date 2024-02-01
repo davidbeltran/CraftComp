@@ -1,0 +1,33 @@
+﻿<!--
+    Substance Author: David Beltran
+    Contains syntax that runs Product lists web page.
+-->
+@{
+    ViewBag.Title = "Products";
+}
+
+<p style="color:#f5a60a;font-size:30px"><br>LAPTOP LIST</p>
+<h3>
+    @{
+        foreach (Product laptop in Program.laptops)
+            WriteLiteral(laptop.GetInfo() + "<br>");
+    }
+</h3>
+
+<p style="color:#f5a60a;font-size:30px"><br>TABLET LIST</p>
+<h3>
+    @{
+        foreach (Product tablet in Program.tablets)
+            WriteLiteral(tablet.GetInfo() + "<br>");
+    }
+</h3>
+
+<p style="color:#f5a60a;font-size:30px"><br>ACCESSORY LIST</p>
+<h3>
+    @{
+        foreach (Product accessory in Program.accessories)
+            WriteLiteral(accessory.GetInfo() + "<br>");
+    }
+</h3>
+<p>@Html.ActionLink("Return to link list", "LoginSuccess", null, null, new {style="color:red"})</p>
+

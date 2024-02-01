@@ -1,0 +1,15 @@
+﻿<!--
+    Substance Author: David Beltran
+    Contains syntax that runs Laptop List web page.
+-->
+@{
+    ViewBag.Title = "Laptops";
+}
+
+<p style="color:#f5a60a;font-size:30px"><br>LAPTOP LIST</p>
+<h3>
+@{
+    foreach (Product laptop in Program.laptops)
+        WriteLiteral(laptop.GetInfo() + "<br>");
+}
+</h3>
